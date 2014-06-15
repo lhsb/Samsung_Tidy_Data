@@ -1,0 +1,9 @@
+The detailed codebook is packed with the data. Please read README.md for detail information.
+
+I had to make syntactically valid names, so there are small changes in the variable names.
+
+Description of changes:
+-----------------------
+All invalid characters are translated to ".". A missing value is translated to "NA". 
+Names which match R keywords have a dot appended to them.
+Duplicated values are altered by make.unique.
