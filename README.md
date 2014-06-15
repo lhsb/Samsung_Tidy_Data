@@ -12,11 +12,11 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 A full description is available at the site where the data was obtained:
 
-[http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones][http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones]  
+[http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones][1]
 
 Here are the data for the project:  
 
-[https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip][https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip]
+[https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip][2]
 
 ### For each record it is provided:
 
@@ -32,6 +32,8 @@ Here are the data for the project:
 
 Goal
 -------------
+
+__run_analysis.R script does the following:__
 
 1. Merges the training and the test sets to create one data set.
 
@@ -62,3 +64,6 @@ Actions
 * Create a second, independent tidy data set with the average of each variable for each activity and each subject
 
 * Save the second data set as tidy_data_set_2.txt
+
+[1]: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+[2]: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
