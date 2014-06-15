@@ -1,5 +1,4 @@
 require(data.table)
-setwd("~/UCI HAR Dataset")
 
 # Load and merge train and test data
 trainTestData = rbind(read.table("train/X_train.txt"), 
